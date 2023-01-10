@@ -11,44 +11,6 @@
     </section>
   </footer>
 </template>
-<style>
-footer {
-    font-weight: 400;
-    background-color: gold;
-
-}
-.footer{
-    padding: 40px 0;
-    background-color: goldenrod;
-}
-footer p{
-    color: black;
-}
-.footer .social {
-    text-align: center;
-    padding-bottom: 25px;
-    color: #4b4c4d;
-
-}
-.footer .social a {
-    font-size: 24px;
-    color: inherit;
-    border: 1px solid black;
-    width: 40px;
-    height: 40px;
-    line-height: 38px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-    opacity:0.75 ;
-
-}
-.footer .social a:hover{
-    opacity: 0.9;
-}
-</style>
-
 <script>
 export default {
 

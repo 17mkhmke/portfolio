@@ -1,16 +1,17 @@
 <template>
-  <AboutComponent/>
+  <ResumeComponent/>
 </template>
 <script>
-import AboutComponent from '@/components/AboutComponent.vue'
+import ResumeComponent from '@/components/ResumeComponent.vue'
 export default {
   components: {
-    AboutComponent
+    ResumeComponent
   }
 }
+
 </script>
 <style>
-#AboutMe{
+#Education{
   background: lightyellow;
 }
 </style>
