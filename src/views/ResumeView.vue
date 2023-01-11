@@ -14,4 +14,7 @@ export default {
 #Education{
   background: lightyellow;
 }
+.row2{
+  border:double gold;
+}
 </style>

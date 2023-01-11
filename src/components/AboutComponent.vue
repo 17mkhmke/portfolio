@@ -9,14 +9,14 @@
             <img class="img-fluid rounded w-100" src="https://i.postimg.cc/qBWPr1p0/Me.jpg" alt="About_me" loading="lazy">
           </div>
           <div class="col-lg-7">
-            <h2 class="mb-4 text-black">Aspiring full-stack <span>Developer</span></h2>
+            <h2 class="mb-4 text-black">Intern full-stack Web <span>Developer</span></h2>
             <p class="text-black">I was born in KwaZulu-Natal, I moved to Eastern Cape in a beautiful village called
-              Lusikisiki in 2007 and by 2009 I moved to
+              Lusikisiki in 2006 and by 2009 I moved to
               Cape Town in a township called Philippi where I was searching for greener pastures in education and that
-              is where I stumbled into <span>coding</span>.<br><br><br>
+              is where I stumbled into <span>coding</span>.<br>
               I am a young professional who is striving towards a successful career in software and web
               development. A career which is based on strong quality coding. I am able to
-              adapt in proficiently in pressuring positions
+              adapt proficiently in pressuring positions
               and produce an expected work ethic. I can provide clean code which lead to responsive
               website. A responsive website makes your website accessible to all users, regardless of their devices</p>
             <div class="row mb-3">

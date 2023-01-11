@@ -4,8 +4,8 @@
           <h2 class="display-2 text-uppercase text-black">My Resume</h2>
         </div>
         <h3 class="mb-4">Education and Experience</h3>
-        <div v-for="item in resume" :key="item" class="row align-items-center">
-          <div class="col-lg">
+        <div v-for="item in resume" :key="item" class="row2 align-items-center">
+          <div class="col-lg-3">
             <div class="boarder-left border-black pt-2 pl-4 ml-2">
               <div class="position-relative ex-me mb-4">
                 <i class="far fa-dot-circle text-warning position-absolute" style="top: 2px; left:-35px; font-size: 22px;"></i>

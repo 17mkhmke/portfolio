@@ -3,7 +3,8 @@
     <div class="position-relative d-flex align-items-center justify-content-center">
         <h2 class="display-2 text-uppercase text-black">Testimonials</h2>
       </div>
-      <div v-for="item2 in testimonial" :key="item2" class="card-col">
+      <div class="container">
+        <div v-for="item2 in testimonial" :key="item2" class="card-col">
         <div class="card row justify-content-center">
           <div class="card border-warning col-12 col-sm-2 col-md-3 m-1">
             <img :src="item2.image" class="card-img-top picture" alt="testimonialPics">
@@ -13,6 +14,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
    </section>
 </template>
