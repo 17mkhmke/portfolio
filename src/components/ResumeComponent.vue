@@ -4,11 +4,11 @@
           <h2 class="display-2 text-uppercase text-black">My Resume</h2>
         </div>
         <h3 class="mb-4">Education and Experience</h3>
+        <div class="container1">
         <div v-for="item in resume" :key="item" class="row2 align-items-center">
-          <div class="col-lg-3">
+          <div class="col-lg">
             <div class="boarder-left border-black pt-2 pl-4 ml-2">
               <div class="position-relative ex-me mb-4">
-                <i class="far fa-dot-circle text-warning position-absolute" style="top: 2px; left:-35px; font-size: 22px;"></i>
                 <h5 class="font-width-bold mb-1">{{ item.level }}</h5>
                 <p class="mb-2"><strong>{{ item.institution }}</strong><small>{{ item.year }}</small></p>
                 <p>{{ item.reflection }}</p>
@@ -16,7 +16,102 @@
             </div>
           </div>
         </div>
-      </section>
+        </div>.
+      <h3 class="mb-4">My skills</h3>
+      <div class="cont">
+    <div class="skillCard">
+      <div class="percent" style="--clr:blue;--num:91;">
+        <div class="dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+        <div class="number">
+        <h2>95<span>%</span></h2>
+        <p>CSS3</p>
+      </div>
+    </div>
+  </div>
+  <div class="skillCard">
+    <div class="percent" style="--clr:orange;--num:95;">
+      <div class="dot"></div>
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70"></circle>
+      </svg>
+      <div class="number">
+      <h2>98<span>%</span></h2>
+      <p>HTML5</p>
+    </div>
+  </div>
+</div>
+<div class="skillCard">
+  <div class="percent" style="--clr:yellow;--num:77;">
+    <div class="dot"></div>
+    <svg>
+      <circle cx="70" cy="70" r="70"></circle>
+      <circle cx="70" cy="70" r="70"></circle>
+    </svg>
+    <div class="number">
+    <h2>79<span>%</span></h2>
+    <p>JavaScript</p>
+  </div>
+</div>
+</div>
+<div class="skillCard">
+  <div class="percent" style="--clr:red;--num:100;">
+    <div class="dot"></div>
+    <svg>
+      <circle cx="70" cy="70" r="70"></circle>
+      <circle cx="70" cy="70" r="70"></circle>
+    </svg>
+    <div class="number">
+    <h2>100<span>%</span></h2>
+    <p>Delphi</p>
+  </div>
+</div>
+</div>
+<div class="skillCard">
+  <div class="percent" style="--clr:purple;--num:90;">
+    <div class="dot"></div>
+    <svg>
+      <circle cx="70" cy="70" r="70"></circle>
+      <circle cx="70" cy="70" r="70"></circle>
+    </svg>
+    <div class="number">
+    <h2>98<span>%</span></h2>
+    <p>Bootstrap5</p>
+  </div>
+</div>
+</div>
+<div class="skillCard">
+  <div class="percent" style="--clr:lightblue;--num:69;">
+    <div class="dot"></div>
+    <svg>
+      <circle cx="70" cy="70" r="70"></circle>
+      <circle cx="70" cy="70" r="70"></circle>
+    </svg>
+    <div class="number">
+    <h2>69<span>%</span></h2>
+    <p>Python</p>
+  </div>
+</div>
+</div>
+<div class="skillCard">
+    <div class="percent" style="--clr:lightgreen;--num:95;">
+      <div class="dot"></div>
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70"></circle>
+      </svg>
+      <div class="number">
+      <h2>99<span>%</span></h2>
+      <p>VUE.JS</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
 </template>
 
 <script>

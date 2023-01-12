@@ -12,22 +12,25 @@ export default {
 }
 </script>
 <style>
-
+#home {
+  background: 100% lightgoldenrodyellow;
+}
 .detail{
      width: 100%;
-    padding: 100px 0px;
-    background-color:lightyellow;
-
+    padding: 100px 0px;;
 }
-.detail {
-    margin-right: 30%;
-    margin-bottom: 50%;
-}
+/* .detail {
+    margin-left: 8%;
+    margin-top: 30%;
+} */
 .detail h1{
     font-size: 50px;
     color: black;
     margin-bottom: 20px;
 }
+/* .detail a {
+  margin-right: 60%;
+} */
 span{
     color: gold;
 }
@@ -35,7 +38,14 @@ span{
     color:black;
     line-height: 22px;
     letter-spacing: 1px;
-
+ }
+ .detail p{
+  margin-right: 50%;
+  margin-top: 18%;
+ }
+ .detail h1{
+  margin-right: 50%;
+  margin-bottom: -10%;
  }
  .detail a{
     background: black;
@@ -44,9 +54,9 @@ span{
     font-weight: bold;
     color: gold;
     display: inline-block;
-    margin: 30px 0;
+    margin-right: 60%;
+    margin-bottom: 18%;
     border-radius: 5px;
-
 }
 .images {
     width: 45%;
@@ -65,7 +75,6 @@ span{
 }
 .images:hover .kreeD-Shape{
     bottom: 40px;
-
 }
 .images:hover .me{
     left: 45%;

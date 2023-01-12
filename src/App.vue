@@ -26,7 +26,16 @@ export default {
 }
 /* ========================================================================NAVBAR SECTION================================================================================ */
 .nav-link{
+  color: white;
+    margin-right: 10px;
+    margin-left: 10px;
   text-transform: uppercase;
+}
+.nav-link{
+    float:left;
+}
+.nav-link:hover{
+    color: gold;
 }
 .navbar-toggler{
   color: gold;

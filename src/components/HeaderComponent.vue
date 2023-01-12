@@ -8,22 +8,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                      <router-link to="/" class="nav-link active text-white">Home</router-link>
+                      <router-link to="/" class="nav-link">Home</router-link>
                   </li>
                   <li class="nav-item">
-                      <router-link to="/about" class="nav-link text-white">About-me</router-link>
+                      <router-link to="/about" class="nav-link">About-me</router-link>
                   </li>
                   <li class="nav-item">
-                      <router-link to="/projects" class="nav-link text-white">Projects</router-link>
+                      <router-link to="/projects" class="nav-link">Projects</router-link>
                   </li>
                   <li class="nav-item">
-                      <router-link to="/resume" class="nav-link text-white">Resume</router-link>
+                      <router-link to="/resume" class="nav-link">Resume</router-link>
                   </li>
                   <li class="nav-item">
-                      <router-link to="/testimonials" class="nav-link text-white">Testimonials</router-link>
+                      <router-link to="/testimonials" class="nav-link">Testimonials</router-link>
                   </li>
                   <li class="nav-item">
-                      <router-link to="/contact" class="nav-link text-white">Contact</router-link>
+                      <router-link to="/contact" class="nav-link">Contact</router-link>
                   </li>
               </ul>
           </div>

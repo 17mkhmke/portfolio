@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="container">
+  <section id="home">
      <div class="detail">
         <h1>I'm Mkhuseli <span>Mkeyiya</span></h1>
         <p> and I am a Full-Stack Web Developer, this is a personal web Portfolio

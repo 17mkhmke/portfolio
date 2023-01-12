@@ -1,7 +1,7 @@
 <template>
   <section class="head pb-5" id="Contact">
       <div class="container py-5">
-        <div class="card">
+        <div class="card1">
           <div class="card-bodyContact">
             <h1 class="font-weight-light text-center py-5">Contact Me</h1>
             <div class="row">

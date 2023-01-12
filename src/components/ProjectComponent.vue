@@ -13,13 +13,12 @@
               aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner w-100 h-100 text-center">
-            <div v-for="item3 in project" :key="item3" class="carousel-item active">
-              <img :src="item3.image" alt="projectPic">
-              <h3><br>{{ item3.projectName }}</h3>
-              <p>{{ item3.description }}</p>
-              <form :action="item3.gitHub" method="get" target="_blank"><button class="project-btn">GitHub</button></form>
-              <a :href="item3.netlify"><button>Netlify</button></a>
-
+            <div v-for="item in project" :key="item" class="carousel-item active">
+              <img :src="item.image" alt="projectPic">
+              <h3><br>{{ item.projectName }}</h3>
+              <p>{{ item.description }}</p>
+              <form :action="item.gitHub" method="get" target="_blank"><button class="project-btn">GitHub</button></form>
+              <a :href="item.netlify"><button>Netlify</button></a>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
@@ -50,14 +49,14 @@ export default {
         netlify: 'https://chic-caramel-bb0212.netlify.app/'
       },
       {
-        image: 'https://i.postimg.cc/d05BWMLk/Project-Rest2-1.jpg',
+        image: 'https://i.postimg.cc/zXzQc4WS/project-Game.png',
         projectName: 'TicTacToe',
         description: 'This is a tic tac toe game built with HTML5, CSS3 and JavaScript',
         gitHub: 'https://github.com/17mkhmke/TicTacToe.git',
         netlify: 'https://mkhuselitictac-game.netlify.app'
       },
       {
-        image: 'https://i.postimg.cc/zXzQc4WS/project-Game.png',
+        image: 'https://i.postimg.cc/d05BWMLk/Project-Rest2-1.jpg',
         projectName: 'e-Commerce JS',
         description: 'This is a e-Commerce website built with HTML5, CSS3, Bootstrap5 and JavaScript',
         gitHub: 'https://github.com/17mkhmke/EOM-js',

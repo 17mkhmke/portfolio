@@ -7,7 +7,6 @@ export default {
   components: {
     ProjectComponent
   }
-
 }
 </script>
 <style>
