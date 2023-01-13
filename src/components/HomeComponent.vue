@@ -2,7 +2,7 @@
   <section id="home">
      <div class="detail">
         <h1>I'm Mkhuseli <span>Mkeyiya</span></h1>
-        <p> and I am a Full-Stack Web Developer, this is a personal web Portfolio
+        <p> and I am a intern Full-Stack Web Developer, this is a personal web Portfolio
           <br> which shows all the details about me as a developer.
         </p>
         <a href="https://drive.google.com/file/d/1xbvNcZRQ6X7WfcefJY5wwYmb-wv3IL_3/view?usp=sharing"
