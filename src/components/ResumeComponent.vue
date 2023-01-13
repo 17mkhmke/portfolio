@@ -10,7 +10,7 @@
             <div class="boarder-left border-black pt-2 pl-4 ml-2">
               <div class="position-relative ex-me mb-4">
                 <h5 class="font-width-bold mb-1">{{ item.level }}</h5>
-                <p class="mb-2"><strong>{{ item.institution }}</strong><small>{{ item.year }}</small></p>
+                <p class="mb-2"><strong>{{ item.institution }}</strong> <small>{{ item.year }}</small></p>
                 <p>{{ item.reflection }}</p>
               </div>
             </div>
