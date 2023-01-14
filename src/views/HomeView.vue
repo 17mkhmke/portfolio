@@ -45,7 +45,7 @@ span{
  }
  .detail h1{
   margin-right: 50%;
-  margin-bottom: -10%;
+  margin-bottom: -15%;
  }
  .detail a{
     background: black;
@@ -64,6 +64,7 @@ span{
     position: absolute;
     bottom:0;
     right: 100px;
+    margin-bottom:10%;
 }
 .images img {
     height: 100%;

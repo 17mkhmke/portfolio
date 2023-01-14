@@ -3,23 +3,23 @@
     <div class="position-relative d-flex align-items-center justify-content-center">
           <h2 class="display-2 text-uppercase text-black">My Projects</h2>
         </div>
-    <div class="container-fluid" id="carousel">
+          <div class="container-fluid" id="carousel">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000" v-for="item3 in project1"
             :key="item3">
-            <img :src="item3.image" alt="ProjectPic" class="img-fluid w-25 m-auto" loading="lazy">
+            <img :src="item3.image" alt="ProjectPic" class="pic" loading="lazy">
             <h3 class="mt-3 text-black"> {{ item3.projectName }}</h3>
             <p class="text-black">{{ item3.description }}</p>
             <form :action="item3.gitHub" method="get" target="_blank"><button class="project-btn">GitHub</button></form><br>
-              <a :href="item3.netlify"><button>Hosting</button></a>
+              <a :href="item3.netlify"><button class="project-btn">Hosting</button></a>
           </div>
           <div class="carousel-item" data-bs-interval="10000" v-for="item3 in project" :key="item3">
-            <img :src="item3.image" alt="projectPic" class="img-fluid w-25 m-auto" loading="lazy">
+            <img :src="item3.image" alt="projectPic" class="pic" loading="lazy">
             <h3 class="mt-3 text-black">{{ item3.projectName }}</h3>
             <p class="text-black">{{ item3.description }}</p>
             <form :action="item3.gitHub" method="get" target="_blank"><button class="project-btn">GitHub</button></form><br>
-              <a :href="item3.netlify"><button>Hosting</button></a>
+              <a :href="item3.netlify"><button class="project-btn">Hosting</button></a>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -69,7 +69,7 @@ export default {
         netlify: 'https://mkhuselimkeyiya-portfolio-project.netlify.app/'
       },
       {
-        image: 'https://i.postimg.cc/ZnRjX1Np/Potential-profile-fococlipping-standard.png',
+        image: 'https://i.postimg.cc/sfGQ4gGL/Final-Logo2-1.png',
         projectName: 'Portfolio VUE',
         description: 'This is a personal portfolio with VUE JS',
         gitHub: 'https://github.com/17mkhmke/vue_portfolio.git',
@@ -87,3 +87,14 @@ export default {
   }
 }
 </script>
+<style scoped>
+.project-btn{
+  background: black;
+text-decoration: none;
+font-weight: bold;
+color: gold;
+display: inline-block;
+border-radius: 5px;
+}
+
+</style>

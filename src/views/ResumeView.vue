@@ -141,4 +141,8 @@ export default {
     text-transform: uppercase;
     color:lightblue;
 }
+.picture{
+  width: 25rem;
+  height: 25rem;
+}
 </style>

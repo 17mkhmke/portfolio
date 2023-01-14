@@ -17,6 +17,13 @@ export default {
 </script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #app {
   font-family: raleway;
   -webkit-font-smoothing: antialiased;

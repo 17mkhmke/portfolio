@@ -23,4 +23,8 @@ export default {
     margin: 30px auto;
     text-align: center;
 }
+.pic{
+  width: 25rem;
+  height: 25rem;
+}
 </style>
