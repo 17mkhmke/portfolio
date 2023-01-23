@@ -22,7 +22,8 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 1em;
-  margin: 2%;
+  margin-left: -2%;
+  margin-right: -2%;
 }
 .card{
   width: 26rem;
