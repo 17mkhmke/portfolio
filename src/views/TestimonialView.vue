@@ -18,14 +18,6 @@ export default {
     font-weight: 700;
     color: black;
 }
-.container1{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 1em;
-  margin-left: -2%;
-  margin-right: -2%;
-  overflow-x: hidden;
-}
 .card{
   width: 26rem;
 }
