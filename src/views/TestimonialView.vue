@@ -24,6 +24,7 @@ export default {
   grid-column-gap: 1em;
   margin-left: -2%;
   margin-right: -2%;
+  overflow-x: hidden;
 }
 .card{
   width: 26rem;
