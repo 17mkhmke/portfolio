@@ -10,7 +10,7 @@ export default {
   }
 }
 </script>
-<style>
+<!-- <style>
 .card-body{
     background: goldenrod;
 }
@@ -39,4 +39,4 @@ export default {
   }
 
 }
-</style>
+</style> -->

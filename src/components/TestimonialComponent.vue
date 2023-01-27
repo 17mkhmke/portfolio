@@ -68,4 +68,34 @@ export default {
   margin-right: -2%;
   overflow-x: hidden;
 }
+.card-body{
+    background: goldenrod;
+}
+.card-body p {
+    font-weight: 700;
+    color: black;
+}
+.card{
+  width: 26rem;
+  height: 38rem;
+  margin-bottom: 8rem;
+}
+#Testimonial{
+  background: lightgoldenrodyellow;
+}
+/* ================================================Responsiveness============================================================== */
+@media screen and (max-width: 900px) {
+  .container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+@media screen and (max-width: 800px) {
+  .container1{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+}
 </style>

@@ -35,6 +35,13 @@ export default {
     gap: 40px;
 
 }
+.container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  margin-left: -2%;
+  margin-right: -2%;
+}
 .cont .skillCard {
     position: relative;
     width: 220px;

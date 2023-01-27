@@ -16,7 +16,7 @@
             </div>
           </div>
         </div>
-        </div>.
+        </div>
       <h3 class="mb-4">My skills</h3>
       <div class="cont">
     <div class="skillCard">
