@@ -58,8 +58,8 @@ export default {
         image: 'https://i.postimg.cc/d05BWMLk/Project-Rest2-1.jpg',
         projectName: 'e-Commerce JS',
         description: 'This is a e-Commerce website built with HTML5, CSS3, Bootstrap5 and JavaScript',
-        gitHub: 'https://github.com/17mkhmke/EOM-js',
-        netlify: 'https://astonishing-blini-69f53e.netlify.app/'
+        gitHub: 'https://github.com/17mkhmke/EOMP_Ecommerce.git',
+        netlify: 'https://e-commerce-by-mkhuseli-mkeyiya.netlify.app/'
       },
       {
         image: 'https://i.postimg.cc/qBWPr1p0/Me.jpg',
