@@ -10,7 +10,5 @@ export default {
 }
 </script>
 <style>
-#AboutMe{
-  background: lightyellow;
-}
+
 </style>

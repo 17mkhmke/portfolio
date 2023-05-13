@@ -2,14 +2,13 @@
  <section class="container-fluid py-5" id="AboutMe">
       <div class="container">
         <div class="position-relative d-flex align-items-center justify-content-center">
-          <h2 class="display-2 text-uppercase text-black">About Me</h2>
+          <h1 class="display-2 text-uppercase">About Me</h1>
         </div>
         <div class="row align-items-center">
           <div class="col-lg-5 pb-lg-0">
-            <img class="img-fluid rounded w-100" src="https://i.postimg.cc/qBWPr1p0/Me.jpg" alt="About_me" loading="lazy">
+            <img class="img-fluid rounded" src="https://i.postimg.cc/qBWPr1p0/Me.jpg" alt="About_me" loading="lazy">
           </div>
           <div class="col-lg-7">
-            <h2 class="mb-4 text-black">Intern full-stack Web <span>Developer</span></h2>
             <p class="text-black about-text">I was born in KwaZulu-Natal, I moved to Eastern Cape in a beautiful village called
               Lusikisiki in 2006 and by 2009 I moved to
               Cape Town in a township called Philippi where I was searching for greener pastures in education and that
@@ -47,10 +46,32 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Quicksand:wght@500&display=swap');
+  #AboutMe{
+  background: #FDEEE3;
+  color:  #08233B;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+h1{
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 80px;
+  color:  #08233B;
+}
+p{
+  font-size: 25px;
+  margin: auto;
+}
+h6{
+  font-size: larger;
+}
   .about-text {
     text-align: left;
   }
 .info-text{
   text-align: left;
   }
+img{
+  width: 430px;
+  margin-bottom: 50px;
+}
 </style>

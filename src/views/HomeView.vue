@@ -12,26 +12,24 @@ export default {
 }
 </script>
 <style>
-#home {
-  background: 100% lightgoldenrodyellow;
-}
-.detail{
+
+/* .detail{
      width: 100%;
     padding: 100px 0px;;
-}
+} */
 /* .detail {
     margin-left: 8%;
     margin-top: 30%;
 } */
-.detail h1{
+/* .detail h1{
     font-size: 50px;
     color: black;
     margin-bottom: 20px;
-}
+} */
 /* .detail a {
   margin-right: 60%;
 } */
-span{
+/* span{
     color: gold;
 }
 .detail p{
@@ -57,7 +55,7 @@ span{
     margin-right: 60%;
     margin-bottom: 18%;
     border-radius: 5px;
-}
+} */
 .images {
     width: 45%;
     height: 60%;

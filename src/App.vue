@@ -32,8 +32,16 @@ export default {
   color: black;
 }
 /* ========================================================================NAVBAR SECTION================================================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Quicksand:wght@500&display=swap');
+
+.navbar{
+  background-color:  #08233B;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
 .nav-link{
-  color: white;
+  color: #FDEEE3;
     margin-right: 10px;
     margin-left: 10px;
   text-transform: uppercase;
@@ -42,11 +50,15 @@ export default {
     float:left;
 }
 .nav-link:hover{
-    color: gold;
+    color: rgb(255, 255, 255);
 }
 .navbar-toggler{
   color: gold;
   background: goldenrod;
+}
+
+.navbar-nav{
+  margin-right: 50px;
 }
 
 nav {
@@ -60,7 +72,7 @@ nav a:hover{
   color: gold;
 }
 nav a.router-link-exact-active {
-  color: gold;
+  color: rgb(255, 255, 255);
 }
 .logo {
   width: 5rem;
@@ -73,15 +85,15 @@ footer {
 }
 .footer{
     padding: 40px 0;
-    background-color: goldenrod;
+    background-color:  #08233B;
 }
 footer p{
-    color: black;
+    color: #FDEEE3;
 }
 .footer .social {
     text-align: center;
     padding-bottom: 25px;
-    color: #4b4c4d;
+    color: #FDEEE3;
 
 }
 .footer .social a {

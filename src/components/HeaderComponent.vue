@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-black sticky-top">
+  <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid">
-        <img src="https://i.postimg.cc/sfGQ4gGL/Final-Logo2-1.png" class="logo" alt="logo" loading="lazy">
+        <img src="" class="logo" alt="" loading="lazy">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>

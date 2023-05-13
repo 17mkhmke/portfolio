@@ -1,7 +1,7 @@
 <template>
   <section id="Projects">
     <div class="position-relative d-flex align-items-center justify-content-center">
-          <h2 class="display-2 text-uppercase text-black">My Projects</h2>
+          <h1 class="display-2 text-uppercase mt-5">Projects</h1>
         </div>
           <div class="container-fluid" id="carousel">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -9,16 +9,16 @@
           <div class="carousel-item active" data-bs-interval="10000" v-for="item3 in project1"
             :key="item3">
             <img :src="item3.image" alt="ProjectPic" class="pic" loading="lazy">
-            <h3 class="mt-3 text-black"> {{ item3.projectName }}</h3>
-            <p class="text-black">{{ item3.description }}</p>
-            <form :action="item3.gitHub" method="get" target="_blank"><button class="project-btn">GitHub</button></form><br>
+            <h3 class="mt-3"> {{ item3.projectName }}</h3>
+            <p class="text">{{ item3.description }}</p>
+            <form :action="item3.gitHub" method="get" target="_blank"><button class="project-btn">GitHub</button></form>
               <a :href="item3.netlify"><button class="project-btn">Hosting</button></a>
           </div>
           <div class="carousel-item" data-bs-interval="10000" v-for="item3 in project" :key="item3">
             <img :src="item3.image" alt="projectPic" class="pic" loading="lazy">
-            <h3 class="mt-3 text-black">{{ item3.projectName }}</h3>
-            <p class="text-black">{{ item3.description }}</p>
-            <form :action="item3.gitHub" method="get" target="_blank"><button class="project-btn">GitHub</button></form><br>
+            <h3 class="mt-3">{{ item3.projectName }}</h3>
+            <p class="text">{{ item3.description }}</p>
+            <form :action="item3.gitHub" method="get" target="_blank"><button class="project-btn">GitHub</button></form>
               <a :href="item3.netlify"><button class="project-btn">Hosting</button></a>
           </div>
         </div>
@@ -88,13 +88,33 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Quicksand:wght@500&display=swap');
+
+#Projects{
+  background-color: #FDEEE3;
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #08233B;
+}
+h1{
+  font-size: 80px;
+}
+
+.pic{
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+}
+.text{
+  font-size: larger;
+}
+
 .project-btn{
-  background: black;
+  background:  #08233B;
 text-decoration: none;
-font-weight: bold;
-color: gold;
-display: inline-block;
+color: #FDEEE3;
 border-radius: 5px;
+margin-bottom: 10px;
+padding: 5px;
 }
 
 </style>
