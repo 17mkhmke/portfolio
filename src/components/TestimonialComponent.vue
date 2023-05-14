@@ -1,147 +1,156 @@
 <template>
-  <section id="Testimonial">
-    <div class="position-relative d-flex align-items-center justify-content-center">
-      <h2 class="display-2 text-uppercase text-black">Testimonials</h2>
-    </div>
-    <div class="container1">
-      <div v-for="item2 in testimonial" :key="item2" class="card-col">
-        <div class="card row justify-content-center">
-          <div class="card-inner border-warning col-12 col-sm-2 col-md-3 m-1">
-            <div class="card-front">
-              <img :src="item2.image" class="card-img-top picture" alt="testimonialPics">
-              <div class="card-body">
-                <h5 class="card-title"><b>{{ item2.spokePerson }}</b></h5>
-                <p class="card-text"><i><em>{{ item2.word }}</em></i></p>
-              </div>
-            </div>
-            <div class="card-back">
-              <div class="card-body">
-                <h5 class="card-title"><b>Contact details:</b></h5>
-                <p class="card-text">Email: {{ item2.email }}</p>
-                <p class="card-text">Phone: {{ item2.phone }}</p>
-                <p class="card-text">Position: {{ item2.Position }}</p>
+  <div class="bbb">
+    <h1 class="display-2 text-uppercase pt-5">Testimonials</h1>
+    <div class="wrapper">
+      <a href="#" class="box" v-for="(card, index) in cards" :key="index">
+        <div class="single-box">
+          <div class="box-content">
+            <div class="sides side-1" :style="'background-image: url(' + card.image + ');'"></div>
+            <div class="sides side-2">
+              <div class="content">
+                <h2 class="fs-3">{{ card.name }}</h2>
+                <p class="p-3 fs-5">{{ card.description }}</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
-  </section>
+  </div>
 </template>
-
 <script>
-export default {
-  name: 'TestimonialComponent',
-  data () {
+/* eslint-disable */
+export default{
+  data() {
     return {
-      testimonial: [{
-        image: 'https://i.postimg.cc/9Xn3dzKr/Joel-Mukanya.jpg',
-        spokePerson: 'Joel Mukanya',
-        email: 'joelm@example.com',
-        phone: '+1-234-567-890',
-        Position: 'Coding Lecture',
-        word: 'Mkhuseli is a very creative, well-behaved student, he enjoys working with his classmates and does well working on his project. He has learned many new tricks on web development and bootstrap 5. I am quite happy with the effort he puts into his work. I recommend him as a Developer.'
-      },
-      {
-        image: 'https://i.postimg.cc/Vvs5tgGr/image.jpg',
-        spokePerson: 'Athenkosi Freddie',
-        email: 'joelm@example.com',
-        phone: '+1-234-567-890',
-        Position: 'Colleague',
-        word: ' is a amazing person with a great sense of humor, a passion for creativity & is always hungry for greatness,never afraid to take risk & is willing to give a person a hand when needed. He is absolutely amazing.'
-      },
-      {
-        image: 'https://i.postimg.cc/W4bPMNyv/DSC-3568.jpg',
-        spokePerson: 'John-Bruce Noad',
-        email: 'joelm@example.com',
-        phone: '+1-234-567-890',
-        Position: 'Colleague',
-        word: 'Mkhuseli has a great sense of humour, but is also serious and hardworking when it comes to his work. He has the ability to focus deeply on whatever tasks he finds before him. All in all, he is a great person to be around'
-      },
-      {
-        image: 'https://i.postimg.cc/g0hqcdRP/Candice.jpg',
-        spokePerson: 'Candice Amon',
-        email: 'joelm@example.com',
-        phone: '+1-234-567-890',
-        Position: 'Colleague',
-        word: 'Comes across very firm and very focused. Does not allow his circumstances to hold him back. He strives to always give his best and be the best. His hardworking and goal driven and always willing to do extra learning to master any task presented with.'
-      },
-      {
-        image: 'https://i.postimg.cc/V6MFPdfL/image.jpg',
-        spokePerson: 'Buhle Qampi',
-        email: 'joelm@example.com',
-        phone: '+1-234-567-890',
-        Position: 'Colleague',
-        word: "Mkhuseli's code is presentable and coherent. His coding skills are improving each and everyday. He has a bright future ahead"
-      },
-      {
-        image: 'https://i.postimg.cc/MHt4SpSN/IMG-3573.jpg',
-        spokePerson: 'Timothy Jennike',
-        email: 'joelm@example.com',
-        phone: '+1-234-567-890',
-        Position: 'Colleague',
-        word: "Mkhuseli is one of the most hardworking people I know and he can accomplish anything he puts his mind to. He also isn't afraid to ask for help when he doesn't understand something, which makes him perfect for the work environment"
-      }
+      cards: [
+        {
+          name: 'John-Bruce Noad',
+          image: 'https://i.postimg.cc/W4bPMNyv/DSC-3568.jpg',
+          description: 'Mkhuseli has a great sense of humour, but is also serious and hardworking when it comes to his work. He has the ability to focus deeply on whatever tasks he finds before him. All in all, he is a great person to be around'
+        },
+        {
+          name: 'Athenkosi Freddie',
+          image: 'https://i.postimg.cc/Vvs5tgGr/image.jpg',
+          description: 'He is a amazing person with a great sense of humor, a passion for creativity & is always hungry for greatness,never afraid to take risk & is willing to give a person a hand when needed. He is absolutely amazing.'
+        },
+        {
+          name: 'Joel Mukanya',
+          image: 'https://i.postimg.cc/9Xn3dzKr/Joel-Mukanya.jpg',
+          description: 'Mkhuseli is a very creative, well-behaved student, he enjoys working with his classmates and does well working on his project. He has learned many new tricks on web development and bootstrap 5. I am quite happy with the effort he puts into his work. I recommend him as a Developer.'
+        },
+        {
+          name: 'Candice Amon',
+          image: 'https://i.postimg.cc/g0hqcdRP/Candice.jpg',
+          description: 'Comes across very firm and very focused. Does not allow his circumstances to hold him back. He strives to always give his best and be the best. His hardworking and goal driven and always willing to do extra learning to master any task presented with.'
+        },
+        {
+          name: 'Buhle Qampi',
+          image: 'https://i.postimg.cc/V6MFPdfL/image.jpg',
+          description: 'His code is presentable and coherent. His coding skills are improving each and everyday. He has a bright future ahead'
+        },
+        {
+          name: 'Timothy Jennike',
+          image: 'https://i.postimg.cc/MHt4SpSN/IMG-3573.jpg',
+          description: "Mkhuseli is one of the most hardworking people I know and he can accomplish anything he puts his mind to. He also isn't afraid to ask for help when he doesn't understand something, which makes him perfect for the work environment"
+        }
       ]
     }
   }
 }
 </script>
-<style scoped>
-.container1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 1em;
-  margin-left: -2%;
-  margin-right: -2%;
-  overflow-x: hidden;
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Quicksand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
 }
-.card-inner {
-  position: relative;
-  width: 26rem;
-  height: 38rem;
-  margin-bottom: 8rem;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-.card-front, .card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-.card-front {
-  transform: rotateY(0deg);
-}
-.card-back {
-  transform: rotateY(180deg);
-}
-.card-inner:hover {
-  transform: rotateY(180deg);
-}
-.card-body{
-  background: goldenrod;
-}
-.card-body p {
-  font-weight: 700;
-  color: black;
-}
-#Testimonial{
-  background: lightgoldenrodyellow;
-}
-/* ================================================Responsiveness============================================================== */
-@media screen and (max-width: 900px) {
-  .container1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+.bbb{
+  background-color: #FDEEE3;
+  font-family: 'Mouse Memoirs', sans-serif;
+  /* min-height: 100vh; */
+  color:  #08233B;
 
 }
-@media screen and (max-width: 800px) {
-  .container1{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+.wrapper{
+    background-color: #FDEEE3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
 
+.box{
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    perspective: 1200px;
+}
+.single-box{
+    width: 300px;
+    height: 300px;
+    perspective: 1200px;
+}
+.box-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-150px);
+    transition: all 1s;
+}
+.sides{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.side-1{
+    transform: rotateY(0deg) translateZ(150px);
+    z-index: 2;
+    background-size: cover;
+    background-position: center center;
+}
+.side-2{
+    color:  #FDEEE3;
+    background-color: #08233B;
+    transform: rotateY(90deg) translateZ(150px);
+}
+.box:hover .box-content{
+    transform: translateZ(-150px) rotateY(-90deg);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.content h2{
+  font-family: 'Mouse Memoirs', sans-serif;
+  color:  #FDEEE3;
+    font-size: 25px;
+}
+.content p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.socials{
+    margin-top: 30px;
+}
+.socials i{
+    margin: 0 15px;
+}
+
+@media (max-width:991px){
+    .wrapper{
+        flex-direction: column;
+    }
+}
+@media (max-width:991px){
+    .box{
+        width: 100%;
+    }
 }
 </style>
+

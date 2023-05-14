@@ -1,73 +1,108 @@
 <template>
-  <section class="head pb-5" id="Contact">
-      <div class="container py-5">
-        <div class="card1">
-          <div class="card-bodyContact">
-            <h1 class="font-weight-light text-center py-5">Contact Me</h1>
-            <div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="row pt-3">
-                  <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
-                    <i class="fa-solid fa-location-dot"></i>
-                  </div>
-                  <div class="col-lg-10 col-md-9 col-sm-9 col-9">
-                    <h5 class="font-weight-light"><b>Address</b></h5>
-                    <p>A28 Shefiled Rd.<br>
-                      Browns Farm<br>
-                      Philippi<br>
-                      7785</p>
-                  </div>
-                </div>
-                <div class="row pt-3">
-                  <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
-                    <i class="fa-solid fa-phone"></i>
-
-                  </div>
-                  <div class="col-lg-10 col-md-9 col-sm-9 col-9">
-                    <h5 class="font-weigh-light"><b>Give me a call</b></h5>
-                    <p>+27 68 522 8188</p>
-                  </div>
-                </div>
-                <div class="row pt-3">
-                  <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
-                    <i class="fa-solid fa-paper-plane"></i>
-
-                  </div>
-                  <div class="col-lg-10 col-md-9 col-sm-9 col-9">
-                    <h5 class="font-weight-light"><b>Email Me</b></h5>
-                    <p>17MkhuseliMkeyiya@gmail.com</p>
-                  </div>
-                </div>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h1 class="title">Contact</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="address">
+                <h3>Address</h3>
+                <p>Browns Farm</p>
+                <p>Philippi</p>
+                <p>7785</p>
               </div>
-              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <form action="https://formspree.io/f/mqkjgnln" method="post">
-
-                  <div class="form-row">
-                    <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
-                      <label>First Name</label>
-                      <input type="text" class="form-control" placeholder="First Name" name="firstName">
-                    </div>
-                    <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
-                      <label>Last Name</label>
-                      <input type="text" class="form-control" placeholder="Last Name" name="lastName">
-                    </div>
-                  </div>
-                  <label>Email</label>
-                  <input type="email" placeholder="someone@gmail.com" class="form-control" name="EmailAddres">
-                  <label>Your Message</label>
-                  <textarea class="form-control mb-3" id="" placeholder="Enter your message" cols="30"
-                    rows="10" name="Message"></textarea>
-                  <button class="btn">Send Message</button>
-                </form>
+              <div class="phone">
+                <h3>Phone</h3>
+                <p>+27 68 522 8188</p>
               </div>
+              <div class="email">
+                <h3>Email</h3>
+                <p>17MkhuseliMkeyiya@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <form action="https://formspree.io/f/mqkjgnln" method="post">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="First Name" name="firstName" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Last Name" name="lastName" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email Address" name="EmailAddres" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Your Message" name="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 </template>
-<script>
-export default {
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Quicksand:wght@500&display=swap');
+.contact {
+  background-color: #FDEEE3;
+  color: #08233B;
+  font-family: 'Mouse Memoirs', sans-serif;
+  padding: 5rem 0;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.card {
+  background-color: #fff ;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.address h3, .phone h3, .email h3 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.address p, .phone p, .email p {
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+input.form-control, textarea.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #ccc;
+  box-shadow: none;
+  padding: 1rem 0;
+}
+
+input.form-control:focus, textarea.form-control:focus {
+  border-color: #08233B;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #08233B;
+  /* border-color: #08233; */
 
 }
-</script>
+
+.btn-primary:hover{
+  color:#FA8072;
+}
+</style>

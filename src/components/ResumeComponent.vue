@@ -1,23 +1,23 @@
 <template>
   <section class="container-fluid py5" id="Education">
  <div class="position-relative d-flex align-items-center justify-content-center">
-          <h2 class="display-2 text-uppercase text-black">My Resume</h2>
+          <h2 class="display-2 pt-5 text-uppercase text">Resume</h2>
         </div>
-        <h3 class="mb-4">Education and Experience</h3>
+        <h3 class="mb-4 fs-1">Education and Experience</h3>
         <div class="container1">
         <div v-for="item in resume" :key="item" class="row2 align-items-center">
           <div class="col-lg">
             <div class="boarder-left border-black pt-2 pl-4 ml-2">
               <div class="position-relative ex-me mb-4">
-                <h5 class="font-width-bold mb-1">{{ item.level }}</h5>
-                <p class="mb-2"><strong>{{ item.institution }}</strong> <small>{{ item.year }}</small></p>
-                <p>{{ item.reflection }}</p>
+                <h5 class="font-width fs-2 mb-1">{{ item.level }}</h5>
+                <p class="mb-2 fs-4"><strong>{{ item.institution }}</strong> <small>{{ item.year }}</small></p>
+                <p class="fs-4">{{ item.reflection }}</p>
               </div>
             </div>
           </div>
         </div>
         </div>
-      <h3 class="mb-4">My skills</h3>
+      <h3 class="mb-4 pt-5 fs-1">My skills</h3>
       <div class="cont">
     <div class="skillCard">
       <div class="percent" style="--clr:blue;--num:91;">
@@ -160,3 +160,160 @@ export default {
   }
 }
 </script>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Quicksand:wght@500&display=swap');
+
+  #Education{
+  background: #FDEEE3;
+  color:  #08233B;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.row2{
+  border:double #FA8072;
+}
+
+h2{
+  color: #08233B;
+}
+h3{
+  color: #08233B;
+}
+/* ===================================================Skills====================================================== */
+.skills {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background: lightgoldenrodyellow;
+
+}
+.cont {
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+.container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  margin-left: -2%;
+  margin-right: -2%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.cont .skillCard {
+    position: relative;
+    width: 220px;
+    height: 250px;
+    background: #08233B;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont .skillCard .percent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+
+}
+.cont .skillCard .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform:rotate(270deg)
+}
+.cont .skillCard .percent svg circle {
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+    transform: translate(5px,5px);
+}
+.cont .skillCard .percent svg circle:nth-child(2) {
+    stroke:var(--clr);
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * var(--num)) / 100);
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+
+}
+.dot {
+    position: absolute;
+    inset: 5px;
+    z-index: 10;
+    transform: rotate(calc(3.6deg * var(--num)));
+    animation: animateDot 2s linear forwards;
+}
+@keyframes animeDot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(calc(33.6deg * var(--num)));
+    }
+}
+.dot ::before{
+    content: '';
+    position:absolute;
+    top: -5px;
+    left: 50%;
+    transform:translate(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr);
+}
+.number {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.number h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5em;
+
+}
+.number h2 span {
+    font-weight: 300;
+    color: white;
+    font-size: 0.5em;
+}
+.number p {
+    font-weight :300;
+    font-size: 0.75em;
+    line-height: 2px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color:lightblue;
+}
+.picture{
+  width: 25rem;
+  height: 25rem;
+}
+</style>

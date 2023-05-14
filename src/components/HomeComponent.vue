@@ -54,11 +54,43 @@ img {
   margin-left: 30px;
   max-height: 92vh;
 }
+
 a {
   background-color: #08233B;
   padding: 15px;
   font-size: 25px;
   color: #FDEEE3;
   border-radius: 15px;
+}
+a:hover{
+  color:#FA8072;
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .detail {
+    margin-top: 100px;
+  }
+  img {
+    margin-left: 0px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .detail {
+    margin-top: 50px;
+  }
 }
 </style>

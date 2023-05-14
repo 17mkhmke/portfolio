@@ -2,14 +2,14 @@
  <section class="container-fluid py-5" id="AboutMe">
       <div class="container">
         <div class="position-relative d-flex align-items-center justify-content-center">
-          <h1 class="display-2 text-uppercase">About Me</h1>
+          <h1 class="display-2 text-uppercase">About</h1>
         </div>
         <div class="row align-items-center">
           <div class="col-lg-5 pb-lg-0">
             <img class="img-fluid rounded" src="https://i.postimg.cc/qBWPr1p0/Me.jpg" alt="About_me" loading="lazy">
           </div>
           <div class="col-lg-7">
-            <p class="text-black about-text">I was born in KwaZulu-Natal, I moved to Eastern Cape in a beautiful village called
+            <p class="text about-text">I was born in KwaZulu-Natal, I moved to Eastern Cape in a beautiful village called
               Lusikisiki in 2006 and by 2009 I moved to
               Cape Town in a township called Philippi where I was searching for greener pastures in education and that
               is where I stumbled into <span>coding</span>.<br><br>

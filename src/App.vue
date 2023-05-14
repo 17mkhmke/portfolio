@@ -50,11 +50,11 @@ export default {
     float:left;
 }
 .nav-link:hover{
-    color: rgb(255, 255, 255);
+    color:#FA8072;
 }
 .navbar-toggler{
-  color: gold;
-  background: goldenrod;
+  color: #FA8072;
+  background: #FDEEE3;
 }
 
 .navbar-nav{
@@ -68,11 +68,8 @@ nav {
 nav a {
   font-weight: bold;
 }
-nav a:hover{
-  color: gold;
-}
 nav a.router-link-exact-active {
-  color: rgb(255, 255, 255);
+  color:#FA8072;
 }
 .logo {
   width: 5rem;
