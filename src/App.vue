@@ -96,7 +96,7 @@ footer p{
 .footer .social a {
     font-size: 24px;
     color: inherit;
-    border: 1px solid black;
+    border: 1px solid lightpink;
     width: 40px;
     height: 40px;
     line-height: 38px;
