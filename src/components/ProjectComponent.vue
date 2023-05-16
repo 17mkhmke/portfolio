@@ -48,14 +48,14 @@ export default {
         netlify: 'https://chic-caramel-bb0212.netlify.app/'
       }],
       project: [{
-        image: 'https://i.postimg.cc/zXzQc4WS/project-Game.png',
-        projectName: 'TicTacToe',
-        description: 'This is a tic tac toe game built with HTML5, CSS3 and JavaScript',
-        gitHub: 'https://github.com/17mkhmke/TicTacToe.git',
-        netlify: 'https://mkhuselitictac-game.netlify.app'
+        image: 'https://i.postimg.cc/ydw8yXsk/Screenshot-2023-05-16-125119.png',
+        projectName: 'Full-stack e-commerce',
+        description: 'This is a e-commerce website which I went all out in it consists VueJS, NodeJS and mySQL',
+        gitHub: 'https://github.com/17mkhmke/stratweni_mobile_foods.git',
+        netlify: 'https://estratwenimobilefoods-94c46.web.app/'
       },
       {
-        image: 'https://i.postimg.cc/d05BWMLk/Project-Rest2-1.jpg',
+        image: 'https://i.postimg.cc/yYrbJLBz/Screenshot-2023-05-16-103935.png',
         projectName: 'e-Commerce JS',
         description: 'This is a e-Commerce website built with HTML5, CSS3, Bootstrap5 and JavaScript',
         gitHub: 'https://github.com/17mkhmke/EOMP_Ecommerce.git',
@@ -81,6 +81,13 @@ export default {
         description: 'This is a e-Commerce website with VUE JS',
         gitHub: 'https://github.com/17mkhmke/vue_Exercise3.git',
         netlify: 'https://e-commercevue.web.app'
+      },
+      {
+        image: 'https://i.postimg.cc/v84rPgmL/Screenshot-2023-05-16-120656.png',
+        projectName: 'To-Do List',
+        description: 'It is a to do list  app which consist of HTML, CSS, JavaScript and Bootstrap',
+        gitHub: 'https://github.com/17mkhmke/To-Do-List.git',
+        netlify: 'https://super-profiterole-c5d115.netlify.app'
       }
       ]
     }
