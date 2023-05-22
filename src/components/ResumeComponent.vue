@@ -27,7 +27,7 @@
           <circle cx="70" cy="70" r="70"></circle>
         </svg>
         <div class="number">
-        <h2>95<span>%</span></h2>
+        <h2><i class="fa-brands fa-css3-alt"></i></h2>
         <p>CSS3</p>
       </div>
     </div>
@@ -40,7 +40,7 @@
         <circle cx="70" cy="70" r="70"></circle>
       </svg>
       <div class="number">
-      <h2>98<span>%</span></h2>
+      <h2><i class="fa-brands fa-html5"></i></h2>
       <p>HTML5</p>
     </div>
   </div>
@@ -53,7 +53,7 @@
       <circle cx="70" cy="70" r="70"></circle>
     </svg>
     <div class="number">
-    <h2>79<span>%</span></h2>
+    <h2><i class="fa-brands fa-square-js"></i></h2>
     <p>JavaScript</p>
   </div>
 </div>
@@ -66,7 +66,7 @@
       <circle cx="70" cy="70" r="70"></circle>
     </svg>
     <div class="number">
-    <h2>100<span>%</span></h2>
+    <h2>Delphi</h2>
     <p>Delphi</p>
   </div>
 </div>
@@ -79,7 +79,7 @@
       <circle cx="70" cy="70" r="70"></circle>
     </svg>
     <div class="number">
-    <h2>98<span>%</span></h2>
+    <h2><i class="fa-brands fa-bootstrap"></i></h2>
     <p>Bootstrap5</p>
   </div>
 </div>
@@ -92,7 +92,7 @@
       <circle cx="70" cy="70" r="70"></circle>
     </svg>
     <div class="number">
-    <h2>69<span>%</span></h2>
+    <h2><i class="fa-brands fa-python"></i></h2>
     <p>Python</p>
   </div>
 </div>
@@ -105,8 +105,60 @@
         <circle cx="70" cy="70" r="70"></circle>
       </svg>
       <div class="number">
-      <h2>99<span>%</span></h2>
+      <h2><i class="fa-brands fa-vuejs"></i></h2>
       <p>VUE.JS</p>
+    </div>
+  </div>
+</div>
+<div class="skillCard">
+    <div class="percent" style="--clr:red;--num:95;">
+      <div class="dot"></div>
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70"></circle>
+      </svg>
+      <div class="number">
+      <h2><i class="fa-solid fa-database"></i></h2>
+      <p>MySQL</p>
+    </div>
+  </div>
+</div>
+<div class="skillCard">
+    <div class="percent" style="--clr:lightgreen;--num:95;">
+      <div class="dot"></div>
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70"></circle>
+      </svg>
+      <div class="number">
+      <h2><i class="fa-brands fa-node-js"></i></h2>
+      <p>Node.JS</p>
+    </div>
+  </div>
+</div>
+<div class="skillCard">
+    <div class="percent" style="--clr:purple;--num:95;">
+      <div class="dot"></div>
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70"></circle>
+      </svg>
+      <div class="number">
+      <h2><i class="fa-brands fa-figma"></i></h2>
+      <p>UI/UX Design</p>
+    </div>
+  </div>
+</div>
+<div class="skillCard">
+    <div class="percent" style="--clr:lightgreen;--num:95;">
+      <div class="dot"></div>
+      <svg>
+        <circle cx="70" cy="70" r="70"></circle>
+        <circle cx="70" cy="70" r="70"></circle>
+      </svg>
+      <div class="number">
+      <h2><i class="fa-brands fa-wordpress"></i></h2>
+      <p>WordPress</p>
     </div>
   </div>
 </div>
