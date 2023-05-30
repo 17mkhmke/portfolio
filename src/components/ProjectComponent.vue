@@ -88,6 +88,13 @@ export default {
         description: 'It is a to do list  app which consist of HTML, CSS, JavaScript and Bootstrap',
         gitHub: 'https://github.com/17mkhmke/To-Do-List.git',
         netlify: 'https://super-profiterole-c5d115.netlify.app'
+      },
+      {
+        image: 'https://i.postimg.cc/jdkgqZ9N/Investments.png',
+        projectName: 'Budget App',
+        description: 'it is a budget app made with VueJS that calculates your income and expenses',
+        gitHub: 'https://github.com/17mkhmke/budgetprototype',
+        netlify: 'https://budget-prototype-f7b85.web.app/'
       }
       ]
     }
